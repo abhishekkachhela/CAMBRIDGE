@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "739914322353",
+    "project_id": "cambridge-customer",
+    "storage_bucket": "cambridge-customer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739914322353:android:20fcf62f08bfac88352d90",
+        "android_client_info": {
+          "package_name": "com.example.cambridge_customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739914322353-7kd3akjml081bhp6vfekutgp0qkevqhr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgJAOOJPPkK6mI-OnrBBAZU5GnJBxFVOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739914322353-7kd3akjml081bhp6vfekutgp0qkevqhr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739914322353:android:67a3580879381f7e352d90",
+        "android_client_info": {
+          "package_name": "com.example.cambridge_seller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739914322353-7kd3akjml081bhp6vfekutgp0qkevqhr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgJAOOJPPkK6mI-OnrBBAZU5GnJBxFVOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739914322353-7kd3akjml081bhp6vfekutgp0qkevqhr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

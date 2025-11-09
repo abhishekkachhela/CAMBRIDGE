@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cambridge_customer">
+
+    <!-- Declare permissions (if any) -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:label="Cambridge"
+        android:icon="@mipmap/launcher_icon"
+        android:theme="@style/LaunchTheme"
+        android:hardwareAccelerated="true"
+        android:windowSoftInputMode="adjustResize">
+
+        <!-- Main Activity of the app -->
+        <activity
+            android:name="com.example.cambridge_customer.MainActivity"
+            android:launchMode="singleTask"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize"
+            android:exported="true">
+
+            <meta-data
+                android:name="flutterEmbedding"
+                android:value="2" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>

@@ -1,0 +1,40 @@
+name: admin_web_portal
+description: "A new Flutter project."
+
+# Prevents accidental publication to pub.dev
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase dependencies
+  firebase_core: ^3.4.0
+  firebase_auth: ^5.2.0
+  cloud_firestore: ^5.3.0
+
+  # Chart library
+  fl_chart: ^0.69.0
+
+  # Other dependencies
+  cupertino_icons: ^1.0.6
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  # Enables Material Icons usage
+  uses-material-design: true
+
+  # Asset management
+  assets:
+    - images/
